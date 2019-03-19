@@ -3,7 +3,8 @@
 ps：最好在页面头部引用，或者异步加载，保证页面在布局完成前计算好font-size大小
 
 //计算rem单位
-(function(designWidth, maxWidth) {
+
+`(function(designWidth, maxWidth) {
     var doc = document,
         win = window;
     var docEl = doc.documentElement;
@@ -79,4 +80,4 @@ ps：最好在页面头部引用，或者异步加载，保证页面在布局完
             doc.body.style.fontSize = "16px";
         }, false);
     }
-})(750, 750);
+})(750, 750);`
