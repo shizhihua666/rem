@@ -32,7 +32,7 @@ ps：最好在页面头部引用，或者异步加载，保证页面在布局完
 
     // 设置 viewport ，有的话修改 没有的话设置
     metaEl = doc.querySelector('meta[name="viewport"]');
-    // 20171219修改：增加 viewport-fit=cover ，用于适配iphoneX
+    // 修改：增加 viewport-fit=cover ，用于适配iphoneX
     metaElCon = "width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no,viewport-fit=cover";
     if(metaEl) {
         metaEl.setAttribute("content", metaElCon);
